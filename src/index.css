@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.body-style {
+    @apply bg-[#FAFAFA];
+}
+
 .heading-font {
     @apply font-my-serif;
+}
+
+.primary-bg {
+    @apply bg-[#FAFAFA] dark:bg-[#000134]
 }

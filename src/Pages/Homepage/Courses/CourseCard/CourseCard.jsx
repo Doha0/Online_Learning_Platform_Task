@@ -1,6 +1,9 @@
 import React from 'react';
 
-const CourseCatalog = () => {
+const CourseCard = ({ course }) => {
+
+    const { _id, courseName,  } = course;
+
     return (
         <div className="flex flex-col items-center justify-center w-full max-w-sm mx-auto">
             <div
@@ -27,4 +30,4 @@ const CourseCatalog = () => {
     );
 };
 
-export default CourseCatalog;
+export default CourseCard;

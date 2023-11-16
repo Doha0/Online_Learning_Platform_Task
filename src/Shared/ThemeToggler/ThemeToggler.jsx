@@ -43,16 +43,16 @@ export default function ThemeToggler() {
     };
 
     return (
-        <button
+        <div
             ref={themeToggleBtn}
             type="button"
-            className=" hover:bg-blue-700 dark:hover:bg-slate-600 focus:outline-none rounded-lg text-sm p-2"
+            className="focus:outline-none rounded-lg text-sm p-2"
             onClick={() => handleThemeToggle()}
         >
             <svg
                 ref={themeToggleDarkIcon}
                 className="hidden w-6 h-6"
-                fill="currentColor"
+                fill="#1c222B"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
             >
@@ -61,7 +61,7 @@ export default function ThemeToggler() {
             <svg
                 ref={themeToggleLightIcon}
                 className="hidden w-6 h-6"
-                fill="currentColor"
+                fill="#f4f5f6"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
             >
@@ -71,6 +71,6 @@ export default function ThemeToggler() {
                     clipRule="evenodd"
                 ></path>
             </svg>
-        </button>
+        </div>
     );
 }
