@@ -1,10 +1,10 @@
 import React from 'react';
-import CourseCatalog from '../CourseCatalog/CourseCatalog';
+import Courses from '../Courses/Courses';
 
 const Home = () => {
     return (
         <div>
-            <CourseCatalog />
+            <Courses />
             {/* #1c3c6b */}
         </div>
     );

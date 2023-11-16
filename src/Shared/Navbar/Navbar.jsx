@@ -30,7 +30,7 @@ const Navbar = () => {
     </>
 
     return (
-        <nav x-data={{ isOpen: false }} className="relative bg-white dark:bg-black">
+        <nav x-data={{ isOpen: false }} className="relative primary-bg">
             <div className="container px-4 py-4 mx-auto">
                 <div className="lg:flex lg:items-center lg:justify-between">
                     <div className="flex items-center justify-between">
@@ -63,7 +63,7 @@ const Navbar = () => {
                     {/* Mobile Menu open: "block", Menu closed: "hidden" */}
                     <div
                         x-cloak='true'
-                        className={`absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-black lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center ${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'}`}
+                        className={`absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out primary-bg lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center ${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'}`}
                     >
                         <div className="flex flex-col -mx-6 lg:flex-row lg:items-center lg:mx-8">
                             {

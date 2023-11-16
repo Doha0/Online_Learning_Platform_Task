@@ -1,18 +1,20 @@
-import { useQuery } from '@tanstack/react-query';
-import axios from 'axios';
-import React from 'react';
+import { useEffect, useState } from "react";
 
 const useCourses = () => {
-    const { data: courses = [], refetch } = useQuery({
-        queryKey: ["courses"],
-        queryFn: () =>
-            axios
-                .get("https://silver-sport-server.vercel.app/class?approve=true")
-                .then((res) => {
-                    return res.data;
-                }),
-    });
-    return [courses, refetch];
+
+    const [courses, setCourses] = useState([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        fetch('https://olp-task-server.vercel.app/courses')
+            .then(res => res.json())
+            .then(data => {
+                setCourses(data);
+                setLoading(false);
+            })
+    }, []);
+    return [courses, loading];
+
 };
 
 export default useCourses;

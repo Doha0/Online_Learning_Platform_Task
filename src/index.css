@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 .body-style {
-    @apply bg-[#FAFAFA];
+    @apply bg-[#f8f8ff] dark:bg-[rgb(5,15,25)] min-h-screen;
+}
+
+.primary-bg {
+    @apply bg-[#FAFAFA] dark:bg-[rgb(0,1,30)]
 }
 
 .heading-font {
     @apply font-my-serif;
-}
-
-.primary-bg {
-    @apply bg-[#FAFAFA] dark:bg-[#000134]
 }
