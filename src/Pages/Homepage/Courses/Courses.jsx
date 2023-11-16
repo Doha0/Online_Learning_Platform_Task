@@ -7,7 +7,7 @@ import 'react-tabs/style/react-tabs.css';
 const Courses = () => {
 
     const [category, setCategory] = useState([]);
-    const [selectedTab, setSelectedTab] = useState('Development');
+    const [selectedTab, setSelectedTab] = useState('Design');
 
     useEffect(() => {
         fetch(`https://olp-task-server.vercel.app/courses/${selectedTab}`, {
@@ -23,12 +23,20 @@ const Courses = () => {
     };
 
     return (
-        <section>
+        <section className='mt-10'>
 
             <Tabs>
-                <TabList>
-                    <Tab onClick={() => handleTabSelect('Development')}>Development</Tab>
-                    <Tab onClick={() => handleTabSelect('Design')}>Design</Tab>
+                <TabList className="flex flex-row justify-around items-center gap-x-4 ">
+                    <Tab
+                        className="  cursor-pointer transition duration-100 ease-in-out transform hover:scale-105"
+                        onClick={() => handleTabSelect('Design')}>
+                        <span className='tab-title'>Design</span>
+                    </Tab>
+                    <Tab
+                        className=" cursor-pointer transition duration-100 ease-in-out transform hover:scale-105"
+                        onClick={() => handleTabSelect('Development')}>
+                        <span className='tab-title'>Development</span>
+                    </Tab>
                 </TabList>
 
                 <TabPanel>
