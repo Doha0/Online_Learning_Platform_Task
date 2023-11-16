@@ -1,0 +1,247 @@
+[
+    {
+        "courseCategory": "Web Development",
+        "courseName": "Learn HTML",
+        "image": "https://i.ibb.co/DrLqMt1/html.jpg",
+        "courseDetails": "Comprehensive guide to HTML for web development.",
+        "price": 19.99,
+        "courseContent": [
+            "Video tutorials on HTML basics",
+            "Hands-on exercises for HTML tags and elements",
+            "Building forms and input elements",
+            "Exploring advanced HTML5 features",
+            "Project: Building a Simple Web Page"
+        ],
+        "syllabus": [
+            "Introduction to HTML",
+            "HTML Elements and Tags",
+            "Forms and Input Elements",
+            "HTML5 Features",
+            "Project: Build a Simple Web Page"
+        ],
+        "instructorName": "Emily Davis",
+        "instructorImage": "https://i.ibb.co/kSKFLVQ/2.jpg",
+        "rating": 4.6,
+        "videoUrl": "https://example.com/learn_html_course/videos",
+        "quizUrl": "https://example.com/learn_html_course/quiz",
+        "currentLesson": 4,
+        "totalLessons": 5,
+        "favourite": false,
+        "certificate": true
+    },
+    {
+        "courseCategory": "Web Development",
+        "courseName": "JavaScript A to Z",
+        "image": "https://i.ibb.co/BVj9Zjh/Javascript.jpg",
+        "courseDetails": "In-depth coverage of JavaScript programming language.",
+        "price": 39.99,
+        "courseContent": [
+            "Interactive coding challenges for JavaScript basics",
+            "Real-world projects involving DOM manipulation",
+            "Asynchronous JavaScript concepts and examples",
+            "Building an interactive website using JavaScript",
+            "Project: Building a Complete Website"
+        ],
+        "syllabus": [
+            "Introduction to JavaScript",
+            "Variables and Data Types",
+            "Control Flow and Functions",
+            "DOM Manipulation",
+            "Asynchronous JavaScript",
+            "Project: Building a Interactive Website"
+        ],
+        "instructorName": "Daniel Turner",
+        "instructorImage": "https://i.ibb.co/F7gB7jb/3.jpg",
+        "rating": 4.7,
+        "videoUrl": "https://example.com/javascript_a_to_z_course/videos",
+        "quizUrl": "https://example.com/javascript_a_to_z_course/quiz",
+        "currentLesson": 6,
+        "totalLessons": 6,
+        "favourite": true,
+        "certificate": true
+    },
+    {
+        "courseCategory": "Web Development",
+        "courseName": "Complete Web Development",
+        "image": "https://i.ibb.co/VtW5r9c/LearnWeb.jpg",
+        "courseDetails": "Master the skills needed for full-stack web development.",
+        "price": 69.99,
+        "courseContent": [
+            "Video lectures covering HTML and CSS fundamentals",
+            "Hands-on projects for JavaScript A to Z",
+            "Server-side development using Node.js",
+            "Database integration with MongoDB",
+            "Building a full-stack web application project"
+        ],
+        "syllabus": [
+            "HTML and CSS Fundamentals",
+            "JavaScript A to Z",
+            "Server-Side Development with Node.js",
+            "Database Integration with MongoDB",
+            "Frontend Frameworks (React, Angular, Vue)",
+            "Project: Building a Full-Stack Web Application"
+        ],
+        "instructorName": "Sophie Miller",
+        "instructorImage": "https://i.ibb.co/0Qp9n1x/1.jpg",
+        "rating": 4.9,
+        "videoUrl": "https://example.com/complete_web_dev_course/videos",
+        "quizUrl": "https://example.com/complete_web_dev_course/quiz",
+        "currentLesson": 7,
+        "totalLessons": 7,
+        "favourite": false,
+        "certificate": true
+    },
+    {
+        "courseCategory": "Web Development",
+        "courseName": "Angular Basics",
+        "image": "https://i.ibb.co/WfnFr5m/angular.jpg",
+        "courseDetails": "Introduction to the basics of Angular framework.",
+        "price": 29.99,
+        "courseContent": [
+            "Hands-on labs for learning Angular basics",
+            "Angular project development exercises",
+            "Understanding components and directives",
+            "Services and dependency injection in Angular",
+            "Building an Angular app project"
+        ],
+        "syllabus": [
+            "Introduction to Angular",
+            "Components and Directives",
+            "Services and Dependency Injection",
+            "Routing in Angular",
+            "Forms and Reactive Programming",
+            "Project: Building an Angular App"
+        ],
+        "instructorName": "Ryan Mitchell",
+        "instructorImage": "https://i.ibb.co/F7gB7jb/3.jpg",
+        "rating": 4.5,
+        "videoUrl": "https://example.com/angular_basics_course/videos",
+        "quizUrl": "https://example.com/angular_basics_course/quiz",
+        "currentLesson": 5,
+        "totalLessons": 6,
+        "favourite": true,
+        "certificate": true
+    },
+    {
+        "courseCategory": "Design",
+        "courseName": "Digital Design Principles",
+        "image": "https://i.ibb.co/868YZD0/digital-Design.jpg",
+        "courseDetails": "Learn the fundamental principles of digital design.",
+        "price": 49.99,
+        "courseContent": [
+            "Understanding color theory and its application in digital design",
+            "Typography essentials for digital media",
+            "Layout and composition principles",
+            "Creating effective user interfaces",
+            "Project: Designing a Digital Poster"
+        ],
+        "syllabus": [
+            "Introduction to Digital Design",
+            "Color Theory in Digital Design",
+            "Typography in Digital Media",
+            "Layout and Composition",
+            "User Interface Design",
+            "Project: Designing a Digital Poster"
+        ],
+        "instructorName": "Emma White",
+        "instructorImage": "https://i.ibb.co/kSKFLVQ/2.jpg",
+        "rating": 4.8,
+        "videoUrl": "https://example.com/digital_design_principles/videos",
+        "quizUrl": "https://example.com/digital_design_principles/quiz",
+        "currentLesson": 5,
+        "totalLessons": 6,
+        "favourite": false,
+        "certificate": true
+    },
+    {
+        "courseCategory": "Design",
+        "courseName": "Logo Design Mastery",
+        "image": "https://i.ibb.co/PZRs7r9/logo-Design.jpg",
+        "courseDetails": "Master the art of creating impactful logos.",
+        "price": 59.99,
+        "courseContent": [
+            "Understanding the psychology of logo design",
+            "Creating memorable and versatile logo concepts",
+            "Logo design tools and techniques",
+            "Refining and finalizing logo designs",
+            "Project: Designing a Brand Logo"
+        ],
+        "syllabus": [
+            "Introduction to Logo Design",
+            "Psychology of Logo Design",
+            "Logo Design Tools and Techniques",
+            "Refining and Finalizing Logos",
+            "Project: Designing a Brand Logo"
+        ],
+        "instructorName": "Mark Johnson",
+        "instructorImage": "https://i.ibb.co/F7gB7jb/3.jpg",
+        "rating": 4.6,
+        "videoUrl": "https://example.com/logo_design_mastery/videos",
+        "quizUrl": "https://example.com/logo_design_mastery/quiz",
+        "currentLesson": 6,
+        "totalLessons": 7,
+        "favourite": true,
+        "certificate": true
+    },
+    {
+        "courseCategory": "Design",
+        "courseName": "Motion Design Fundamentals",
+        "image": "https://i.ibb.co/r24sRPT/motion-Design.jpg",
+        "courseDetails": "Explore the basics of motion design and animation.",
+        "price": 44.99,
+        "courseContent": [
+            "Introduction to motion design principles",
+            "Animating logos and graphics",
+            "Creating dynamic transitions",
+            "Timing and easing in motion design",
+            "Project: Designing a Motion Graphic"
+        ],
+        "syllabus": [
+            "Introduction to Motion Design",
+            "Animating Logos and Graphics",
+            "Dynamic Transitions",
+            "Timing and Easing in Motion Design",
+            "Project: Designing a Motion Graphic"
+        ],
+        "instructorName": "Olivia Davis",
+        "instructorImage": "https://i.ibb.co/0Qp9n1x/1.jpg",
+        "rating": 4.7,
+        "videoUrl": "https://example.com/motion_design_fundamentals/videos",
+        "quizUrl": "https://example.com/motion_design_fundamentals/quiz",
+        "currentLesson": 4,
+        "totalLessons": 5,
+        "favourite": false,
+        "certificate": true
+    },
+    {
+        "courseCategory": "Design",
+        "courseName": "UI/UX Design Essentials",
+        "image": "https://i.ibb.co/mRvYV92/ui-ux.jpg",
+        "courseDetails": "Essential principles and techniques for UI/UX design.",
+        "price": 79.99,
+        "courseContent": [
+            "User-centered design principles",
+            "Creating wireframes and prototypes",
+            "Visual design for user interfaces",
+            "Usability testing and feedback",
+            "Project: Designing a Responsive Web App"
+        ],
+        "syllabus": [
+            "Introduction to UI/UX Design",
+            "User-Centered Design Principles",
+            "Wireframing and Prototyping",
+            "Visual Design for User Interfaces",
+            "Usability Testing and Feedback",
+            "Project: Designing a Responsive Web App"
+        ],
+        "instructorName": "Nathan Williams",
+        "instructorImage": "https://i.ibb.co/VtW5r9c/LearnWeb.jpg",
+        "rating": 4.9,
+        "videoUrl": "https://example.com/ui_ux_design_essentials/videos",
+        "quizUrl": "https://example.com/ui_ux_design_essentials/quiz",
+        "currentLesson": 7,
+        "totalLessons": 8,
+        "favourite": true,
+        "certificate": true
+    }
+]
