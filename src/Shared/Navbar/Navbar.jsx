@@ -1,11 +1,14 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import Logo from '../Logo/Logo';
 import "./Navbar.css"
 import { Link } from 'react-router-dom';
 import ThemeToggler from '../ThemeToggler/ThemeToggler';
+import { AuthContext } from '../../Providers/AuthProvider';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+
+    const { user } = useContext(AuthContext);
 
     const navItems = <>
         <Link className="relative mt-4 md:mt-0">
@@ -26,7 +29,31 @@ const Navbar = () => {
                 Dashboard
             </button>
         </Link>
+    </>
 
+    const loginLogout = <>
+        {user ? (
+            <>
+                {user && (
+                    <button type="button">
+                        <div className="w-8 h-8 overflow-hidden border-2 border-gray-400 rounded-full">
+                            <img src={user?.photoURL} className="object-cover w-full h-full" alt="avatar" />
+                        </div>
+                    </button>
+                )}
+                <Link onClick={handelLogout}>
+                    <button type='button' className="p-2 w-32 rounded-full bg-[#5EC38B] text-white border shadow">
+                        Logout
+                    </button>
+                </Link>
+            </>
+        ) : (
+            <Link to="/login">
+                <button className="p-2 w-32 rounded-full bg-[#5EC38B] text-white border shadow">
+                    Login
+                </button>
+            </Link>
+        )}
     </>
 
     return (
@@ -76,13 +103,13 @@ const Navbar = () => {
                                 <ThemeToggler />
                             </button>
 
-                            <button type="button" className="flex items-center focus:outline-none" aria-label="toggle profile dropdown">
-                                <div className="w-8 h-8 overflow-hidden border-2 border-gray-400 rounded-full">
-                                    <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="object-cover w-full h-full" alt="avatar" />
-                                </div>
 
-                                <h3 className="mx-2 text-gray-700 dark:text-gray-200 lg:hidden">Doha</h3>
-                            </button>
+                            <div className="flex items-center focus:outline-none" aria-label="toggle profile dropdown">
+                                {
+                                    loginLogout
+                                }
+                            </div>
+
                         </div>
                     </div>
                 </div>
