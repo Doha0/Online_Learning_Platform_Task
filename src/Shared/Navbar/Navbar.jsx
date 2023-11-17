@@ -8,7 +8,13 @@ import { AuthContext } from '../../Providers/AuthProvider';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
-    const { user } = useContext(AuthContext);
+    const { user, logOut } = useContext(AuthContext);
+
+    const handleLogOut = () => {
+        logOut()
+            .then(() => { })
+            .catch(error => console.log(error))
+    }
 
     const navItems = <>
         <Link className="relative mt-4 md:mt-0">
